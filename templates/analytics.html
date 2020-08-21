@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/themes/dark/main.css"/>
+    <script src="https://kit.fontawesome.com/98977d894b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+
+
+    <title>Insight | Analytics</title>
+</head>
+<div class="container">
+    <p class="query-subtitle">
+        The full scoop on
+    </p>
+    <h1 class="text-center query-title main-title">
+        {{ query }}
+    </h1>
+
+    <div class="row mainrow">
+        <div class="col-12" style="padding: 20px">
+            <div class="mainInfo">
+                <img class="cloud-img" src="figures/{{ query }}.png"/>
+                <div class="graph">
+                    <div class="left-data-title">
+                        Most Used Words
+                    </div>
+                    <canvas id="horizontalBarChartCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="row sentiment-data">
+                <div class="col-6" style="padding-right: 32px">
+                    <div class="data-container">
+                        <div class="data-number positive">{{ pos * 2 }}%</div>
+                        <div class="data-title">
+                            Positive Sentiment
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6" style="padding-left: 32px">
+                    <div class="data-container">
+                        <div class="data-number negative">{{ neg * 2 }}%</div>
+                        <div class="data-title">
+                            Negative Sentiment
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div class="ai-info">
+            *Overall sentiment calculated through VADER (Valence Aware Dictionary and sEntiment Reasoner)
+        </div>
+        <form action="/" method="GET" enctype="multipart/form-data">
+            <button type="submit" class="btn submit-button" style="margin-bottom: 200px; text-transform: none">
+                Make Another Search
+            </button>
+        </form>
+    </center>
+    <script>
+        // Frequency chart
+
+        Chart.defaults.global.defaultFontFamily = 'Open Sans';
+        var horizontalBarChart = new Chart(horizontalBarChartCanvas, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['{{ words[0] }}', '{{ words[1] }}', '{{ words[2] }}', '{{ words[3] }}', '{{ words[4] }}'],
+                datasets: [
+                    {
+                        data: [
+                            '{{ freqs[0] / 100 }}',
+                            '{{ freqs[1] / 100 }}',
+                            '{{ freqs[2] / 100 }}',
+                            '{{ freqs[3] / 100 }}',
+                            '{{ freqs[4] / 100 }}',
+                        ],
+                        backgroundColor: '#295499',
+                    },
+                ],
+            },
+            options: {
+                tooltips: {
+                    enabled: false,
+                },
+                responsive: true,
+                legend: {
+                    display: false,
+                    position: 'bottom',
+                    fullWidth: true,
+                    labels: {
+                        boxWidth: 10,
+                    },
+                },
+                scales: {
+                    yAxes: [
+                        {
+                            barPercentage: 0.45,
+                            gridLines: {
+                                display: false,
+                                drawBorder: false,
+                            },
+                            ticks: {
+                                fontColor: '#555759',
+                                fontFamily: 'Open Sans',
+                                fontSize: 20,
+                            },
+                        },
+                    ],
+                    xAxes: [
+                        {
+                            gridLines: {
+                                display: false,
+                                drawTicks: false,
+                                tickMarkLength: 5,
+                                drawBorder: false,
+                            },
+                            ticks: {
+                                padding: 5,
+                                beginAtZero: true,
+                                fontColor: '#555759',
+                                fontFamily: 'Open Sans',
+                                fontSize: 11,
+                                callback: function (label, index, labels) {
+                                    return label;
+                                },
+                            },
+                            scaleLabel: {
+                                display: true,
+                                padding: 10,
+                                fontFamily: 'Open Sans',
+                                fontColor: '#555759',
+                                fontSize: 16,
+                                fontStyle: 700,
+                                labelString: 'Frequency in 100s',
+                            },
+                        },
+                    ],
+                },
+            },
+        });
+    </script>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"
+    ></script>
+</div>

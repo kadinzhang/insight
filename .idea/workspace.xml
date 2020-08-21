@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eb3afc4-2cc0-4b3b-9eb7-cb824e4e1a76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/insight.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/insight.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_stock_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetch_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/fetch_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/amazon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/costco.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/covid19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/hertz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/microsoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/msft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/obama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/trump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/united airlines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/dashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1czsWlwxrVOYiUuRYQsCaP96FQT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="insight" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eb3afc4-2cc0-4b3b-9eb7-cb824e4e1a76" name="Default Changelist" comment="" />
+      <created>1591542789768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591542789768</updated>
+      <workItem from="1597934504068" duration="10216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="854" y="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591542880208">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="854" y="392" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2194.1204@0.0.2194.1204" timestamp="1591542880208" />
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597934616614">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1597934616614" />
+    <state x="512" y="200" key="FileChooserDialogImpl" timestamp="1597940247542">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="512" y="200" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1597940247542" />
+    <state x="878" y="357" key="FileChooserDialogImpl/0.0.2194.1204@0.0.2194.1204" timestamp="1593126775545" />
+    <state width="2150" height="476" key="GridCell.Tab.0.bottom" timestamp="1597968491167">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1236" height="298" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1597945220683" />
+    <state width="2173" height="314" key="GridCell.Tab.0.bottom/0.0.2194.1204/-1920.0.1280.689@0.0.2194.1204" timestamp="1592768198701" />
+    <state width="2150" height="476" key="GridCell.Tab.0.bottom/0.0.2194.1204@0.0.2194.1204" timestamp="1597968491167" />
+    <state width="2150" height="476" key="GridCell.Tab.0.center" timestamp="1597968491167">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1236" height="298" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1597945220683" />
+    <state width="2173" height="314" key="GridCell.Tab.0.center/0.0.2194.1204/-1920.0.1280.689@0.0.2194.1204" timestamp="1592768198700" />
+    <state width="2150" height="476" key="GridCell.Tab.0.center/0.0.2194.1204@0.0.2194.1204" timestamp="1597968491167" />
+    <state width="2150" height="476" key="GridCell.Tab.0.left" timestamp="1597968491167">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1236" height="298" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1597945220682" />
+    <state width="2173" height="314" key="GridCell.Tab.0.left/0.0.2194.1204/-1920.0.1280.689@0.0.2194.1204" timestamp="1592768198700" />
+    <state width="2150" height="476" key="GridCell.Tab.0.left/0.0.2194.1204@0.0.2194.1204" timestamp="1597968491167" />
+    <state width="2150" height="476" key="GridCell.Tab.0.right" timestamp="1597968491167">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state width="1236" height="298" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1597945220683" />
+    <state width="2173" height="314" key="GridCell.Tab.0.right/0.0.2194.1204/-1920.0.1280.689@0.0.2194.1204" timestamp="1592768198701" />
+    <state width="2150" height="476" key="GridCell.Tab.0.right/0.0.2194.1204@0.0.2194.1204" timestamp="1597968491167" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1597935329190">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1597935329190" />
+    <state x="856" y="291" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591543075604">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="856" y="291" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2194.1204@0.0.2194.1204" timestamp="1591543075604" />
+    <state x="781" y="176" width="760" height="852" key="find.popup" timestamp="1592787370490">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="781" y="176" width="760" height="852" key="find.popup/0.0.2194.1204/-1920.0.1280.689@0.0.2194.1204" timestamp="1592771858227" />
+    <state x="781" y="176" width="760" height="852" key="find.popup/0.0.2194.1204@0.0.2194.1204" timestamp="1592787370490" />
+    <state x="760" y="266" width="672" height="678" key="search.everywhere.popup" timestamp="1597966657329">
+      <screen x="0" y="0" width="2194" height="1204" />
+    </state>
+    <state x="443" y="152" width="672" height="388" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1597935322573" />
+    <state x="760" y="266" width="672" height="678" key="search.everywhere.popup/0.0.2194.1204/-1920.0.1280.689@0.0.2194.1204" timestamp="1592768193173" />
+    <state x="760" y="266" width="672" height="678" key="search.everywhere.popup/0.0.2194.1204@0.0.2194.1204" timestamp="1597966657329" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Company_Insights$app.coverage" NAME="app Coverage Results" MODIFIED="1597968298852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
